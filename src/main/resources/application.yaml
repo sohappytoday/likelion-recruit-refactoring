@@ -43,3 +43,9 @@ solapi:
 openai:
   api:
     key: ${OPENAI_API_KEY}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
